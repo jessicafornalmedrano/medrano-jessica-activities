@@ -1,0 +1,282 @@
+
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+    background-color: skyblue;
+    width: 100%;
+    padding: 10px;
+    z-index: 99999;
+    border: 5px solid violet;
+    font-family: monospace;
+}
+
+.fixed1 {
+    position: fixed;
+    left: 0px;
+    top: 90px;
+    color: white;
+    background-color: skyblue;
+    width: 15%;
+    padding: 0px;
+    border: 5px solid violet;
+    font-family: monospace;
+}
+
+.fixed2 {
+    position: fixed;
+    left: 0;
+    top: 160px;
+    color: white;
+    background-color: skyblue;
+    width: 15%;
+    padding: 0px;
+    border: 5px solid violet;
+    font-family: monospace;
+}
+
+.fixed3 {
+    position: fixed;
+    left: 0px;
+    top: 230px;
+    color: white;
+    background-color: skyblue;
+    width: 15%;
+    padding: 0px;
+    border: 5px solid violet;
+    font-family: monospace;
+}
+
+.fixed4 {
+    position: fixed;
+    left: 0;
+    top: 300px;
+    color: white;
+    background-color: skyblue;
+    width: 15%;
+    padding: 0px;
+    border: 5px solid violet;
+    font-family: monospace;
+}
+
+.fixed5 {
+    position: fixed;
+    left: 0;
+    top: 370px;
+    color: white;
+    background-color: skyblue;
+    width: 15%;
+    padding: 0px;
+    border: 5px solid violet;
+    font-family: monospace;
+}
+
+.fixed6 {
+    position: fixed;
+    left: 0;
+    top: 440px;
+    height: 300px;
+    color: white;
+    background-color: skyblue;
+    width: 15%;
+    padding: 0px;
+    border: 5px solid violet;
+    font-family: monospace;
+}
+
+.relative {
+    position: relative;
+    left: 500px;
+    top: 90px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+    
+}
+
+.relative1 {
+    position: relative;
+    left: 500px;
+    top: 130px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+    
+
+}
+.relative2 {
+    position: relative;
+    left: 500px;
+    top: 170px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+  
+}
+
+.relative3 {
+    position: relative;
+    left: 500px;
+    top: 210px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    z-index: 99999;
+    border: 5px solid violet;
+   
+}
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+.relative4 {
+    position: relative;
+    left: 500px;
+    top: 250px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.relative5 {
+    position: relative;
+    left: 500px;
+    top: 290px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+.relative6 {
+    position: relative;
+    left: 500px;
+    top: 330px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.relative7 {
+    position: relative;
+    left: 500px;
+    top: 370px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+.relative8 {
+    position: relative;
+    left: 500px;
+    top: 410px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.relative9 {
+    position: relative;
+    left: 500px;
+    top: 450px;
+    width: 300px;
+    height: 340px;
+    background-color: skyblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid violet;
+    z-index: 99999;
+}
+img {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
