@@ -1,13 +1,16 @@
 
+body{
+    background-color: gray;
+}
 .fixed {
     position: fixed;
-    left: 0;
+    left: 0px;
     top: 0;
     color: white;
     background-color: skyblue;
     width: 100%;
     padding: 10px;
-    z-index: 99999;
+    z-index: 999;
     border: 5px solid violet;
     font-family: monospace;
 }
@@ -91,12 +94,12 @@
     top: 90px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
+    background-color: pink;
     color: white;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 
 img {
@@ -112,12 +115,12 @@ img {
     top: 130px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
-    color: white;
+    background-color: pink;
+    color: mediumorchid;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 img {
     width:200px;
@@ -132,12 +135,12 @@ img {
     top: 170px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
+    background-color: pink;
     color: white;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 
 img {
@@ -153,13 +156,12 @@ img {
     top: 210px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
-    color: white;
+    background-color: pink;
+    color: mediumorchid;
     margin: 10px;
     padding: 10px;
-    z-index: 99999;
     border: 5px solid violet;
-   
+    font-family: monospace;
 }
 img {
     width:200px;
@@ -172,12 +174,12 @@ img {
     top: 250px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
+    background-color: pink;
     color: white;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 
 img {
@@ -192,12 +194,12 @@ img {
     top: 290px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
-    color: white;
+    background-color: pink;
+    color: mediumorchid;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 img {
     width:200px;
@@ -210,12 +212,12 @@ img {
     top: 330px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
+    background-color: pink;
     color: white;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 
 img {
@@ -230,12 +232,12 @@ img {
     top: 370px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
-    color: white;
+    background-color: pink;
+    color: mediumorchid;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 img {
     width:200px;
@@ -248,12 +250,12 @@ img {
     top: 410px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
+    background-color: pink;
     color: white;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 
 img {
@@ -268,12 +270,12 @@ img {
     top: 450px;
     width: 300px;
     height: 340px;
-    background-color: skyblue;
-    color: white;
+    background-color: pink;
+    color: mediumorchid;
     margin: 10px;
     padding: 10px;
     border: 5px solid violet;
-    z-index: 99999;
+    font-family: monospace;
 }
 img {
     width:200px;
