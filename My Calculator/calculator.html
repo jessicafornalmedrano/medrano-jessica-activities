@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Calculator</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .calculator-wrapper {
+      border: 5px solid purple;
+      border-radius: 10px;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    h1 {
+      color: purple;
+      text-align: center;
+    }
+
+    .container {
+      border: 2px solid skyblue ;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    #output {
+      font-size: 24px;
+      text-align: right;
+      flex-grow: 1;
+      padding-right: 10px;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 10px;
+    }
+    .flex-container div {
+      width: 60px;
+      height: 60px;
+      background-color: skyblue;
+      color: #ffffff;
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .flex-container div:hover {
+      background-color: #7d48b1;
+    }
+
+    .flex-container div:active {
+      background-color: #4c2875;
+    }
+  </style>
+</head>
+<body>
+    <div class="calculator-wrapper">
+        <h1>MY CALCULATOR</h1>
+      
+        <div class="container">
+          <div id="output">0</div>
+        </div>
+      
+        <div class="flex-container">
+          <div onclick="appendToOutput('7')">7</div>
+          <div onclick="appendToOutput('8')">8</div>
+          <div onclick="appendToOutput('9')">9</div>
+          <div onclick="appendToOutput('/')">÷</div>
+        </div>
+        <div class="flex-container">
+            <div onclick="appendToOutput('4')">4</div>
+            <div onclick="appendToOutput('5')">5</div>
+            <div onclick="appendToOutput('6')">6</div>
+            <div onclick="appendToOutput('*')">x</div>
+          </div>
+        
+          <div class="flex-container">
+            <div onclick="appendToOutput('1')">1</div>
+            <div onclick="appendToOutput('2')">2</div>
+            <div onclick="appendToOutput('3')">3</div>
+            <div onclick="appendToOutput('-')">-</div>
+          </div>
+          <div class="flex-container">
+            <div onclick="appendToOutput('0')">0</div>
+            <div onclick="appendToOutput('.')">.</div>
+            <div onclick="calculate()">=</div>
+            <div onclick="appendToOutput('+')">+</div>
+          </div>
+        </div>
+        
+        <script>
+        function appendToOutput(value) {
+          var output = document.getElementById("output");
+          if (output.textContent === "0" && value !== ".") {
+            output.textContent = "";
+          }
+          output.textContent += value;
+        }
+
+function calculate() {
+  var output = document.getElementById("output");
+  try {
+    var result = eval(output.textContent);
+    output.textContent = result;
+  } catch (error) {
+    output.textContent = "Error";
+  }
+}
+</script>
+
+</body>
+</html>
+      
